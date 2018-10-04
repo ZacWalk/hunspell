@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\hunspell\affentry.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\affixmgr.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\csutil.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\filemgr.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\hashmgr.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\hunspell.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\hunzip.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\phonet.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\replist.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\suggestmgr.cxx">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\hunspell\affentry.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\affixmgr.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\atypes.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\baseaffix.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\csutil.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\hashmgr.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\htypes.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\hunspell.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\langnum.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\suggestmgr.hxx">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\filemgr.hxx">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{a7f436ec-ec2a-4bc7-8dff-af87f9ff66d9}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{bc76d90b-d245-4a66-8132-5bc27d57104f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>
